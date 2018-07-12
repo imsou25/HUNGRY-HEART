@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "414144573179",
+    "firebase_url": "https://hungry-heart-6f419.firebaseio.com",
+    "project_id": "hungry-heart-6f419",
+    "storage_bucket": "hungry-heart-6f419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414144573179:android:2af8b57472ec7016",
+        "android_client_info": {
+          "package_name": "com.hungryheart.hungryheart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414144573179-rt7q8olicelr5ohp2a3e8lm85r54pif7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hungryheart.hungryheart",
+            "certificate_hash": "b4ac4a503c0bac3089d89d70134f8908bb4f01ca"
+          }
+        },
+        {
+          "client_id": "414144573179-rl5m5dv1ra54a3u71e6vorip1cpucth5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT8VNtKEzIfPA7HyPfinOfuIF5N__vEjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414144573179-rl5m5dv1ra54a3u71e6vorip1cpucth5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

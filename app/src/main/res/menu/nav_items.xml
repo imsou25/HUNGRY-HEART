@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:id="@+id/menu"
+            android:icon="@drawable/ic_menu_gold_24dp"
+            android:title="Menu"/>
+        <item android:id="@+id/order"
+            android:icon="@drawable/ic_order_gold_24dp"
+            android:title="Orders"/>
+    </group>
+
+    <item android:title="EXTRAS"/>
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/tracker"
+            android:icon="@drawable/ic_track_gold_24dp"
+            android:title="Tracker"/>
+        <item android:id="@+id/deals"
+            android:icon="@drawable/ic_deal_gold_24dp"
+            android:title="Hot Deals"/>
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_about_gold_24dp"
+            android:title="About Us"/>
+    </group>
+
+
+
+
+
+
+
+</menu>

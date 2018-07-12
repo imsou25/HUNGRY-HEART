@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/text_skip"
+        android:text="Skip"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="205dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_project" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/main_page"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="405dp"
+            android:gravity="center"
+            android:text="  No matter where you are:  whether in an office, home or beach,We will find you and We will Feed You"
+            android:textColor="#fefeff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/registration_button"
+        android:textColor="#000"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="7dp"
+        android:shadowColor="#ffd336"
+        android:text="REGISTER"
+        android:background="@drawable/ic_button"
+        android:backgroundTint="#ffd336" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="140dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="7dp"
+        android:shadowColor="#ffd336"
+        android:text="LOGIN"
+        android:background="@drawable/ic_button"
+        android:backgroundTint="#ffd336"/>
+
+</RelativeLayout>

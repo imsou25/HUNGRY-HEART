@@ -1,0 +1,27 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/last"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="50dp">
+    <TextView
+        android:text="Thank You For Ordering with us."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="45dp"/>
+
+
+    <Button
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/ic_button"
+        android:backgroundTint="#b507bca8"
+        android:text="BACK"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+</RelativeLayout>

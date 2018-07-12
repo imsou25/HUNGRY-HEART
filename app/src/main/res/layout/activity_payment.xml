@@ -1,0 +1,67 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT"
+        android:textSize="50dp"
+        android:textColor="#f7f7f4"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download1">
+
+
+    <CheckBox
+        android:id="@+id/CODCheckBox"
+        android:layout_width="348dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="57dp"
+        android:text="Cash On Delivery"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/paytmCheckBox"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/check_football"
+        android:layout_marginTop="130dp"
+        android:text="Paytm"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:background="@drawable/ic_button"
+        android:backgroundTint="#d1ffd336"
+        android:text="Order"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+
+
+
+
+</RelativeLayout>
+
+</LinearLayout>
